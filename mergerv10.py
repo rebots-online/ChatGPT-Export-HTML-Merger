@@ -1,3 +1,21 @@
+"""
+Project: ChatGPT Export HTML Merger
+
+Description:
+This Python script converts ChatGPT conversation exports in JSON format into HTML files organized for easy viewing. 
+
+Modules Required:
+- argparse: Standard library, for parsing command-line arguments.
+- json: Standard library, for handling JSON data.
+- os: Standard library, for interacting with the operating system.
+- tempfile: Standard library, for creating temporary files and directories.
+- datetime: Standard library, for date and time manipulation.
+- zipfile: Standard library, for handling ZIP file extraction.
+- concurrent.futures: Standard library, for concurrent execution using thread pools.
+- itertools: Standard library, for efficient looping.
+- tqdm: Install via `pip install tqdm`, for progress bars.
+"""
+
 import argparse
 import json
 import os
